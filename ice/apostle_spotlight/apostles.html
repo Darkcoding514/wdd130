@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+
+        body {
+            background-color: #E8ECED;
+        }
+
+        h1 {
+            font-family: Arial;
+            color: white;
+            text-align: center;
+            font-size: 60px;
+            margin: 10px 0px 10px 0px;
+            text-shadow: 2px 2px black;
+        }
+
+        h2 {
+            font-family: Arial;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            margin: 15px 0px 10px 0px;
+            text-shadow: 1px 1px black;
+        }
+
+        #backdrop {
+            background-image: url('images/christus.webp');
+            background-position: center;
+            width: 1300px;
+            height: 1000px;
+            justify-self: center;
+            display: grid;
+            border: solid 8px black;
+            border-radius: 8%;
+        } 
+
+        .orb_img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit:cover; /* To not squish apostle's face */
+            border: solid 10px white; /* #0440ff; */
+
+        }
+        .orb_img:hover {
+            width: 165px;
+            height: 165px;
+        }
+
+        .profile_orbs {
+
+            display: grid;
+            grid-template-columns: 175px 175px 175px 175px;
+            grid-template-rows: 175px 175px 175px;
+            gap: 25px 25px;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        #newapostle { 
+            width: 170px;
+            height: 170px;
+            content:url("images/newapostle.png");
+            border: none;
+
+        }
+        #newapostle:hover {
+            width: 165px;
+            height: 165px;
+            content:url("images/holland.webp");
+            border: solid 10px white;
+        }
+
+        .presidencybar {
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+            gap: 50px 50px;
+            align-content: center;
+            justify-content: center;
+            margin: 10px 50px 10px 50px;
+        }
+
+        .presidency_img {
+            width: 225px;
+            height: 225px;
+            border-radius: 50%;
+            object-fit:cover;
+            border: solid 10px white;
+            align-content: center;
+            justify-content: center;
+
+        }
+        .presidency_img:hover {
+            width: 240px;
+            height: 240px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Insert HTML elements here -->
+    
+    <wrapper id="backdrop"> 
+
+        <h1>First Presidency</h1>
+
+        <div class="presidencybar">
+            <a href="https://www.churchofjesuschrist.org/learn/people/henry-b-eyring/life-leadership?lang=eng" target="_blank"><img class="presidency_img" src="images/eyring.webp" alt="Elder_Eyring"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/people/dallin-h-oaks/life-leadership?lang=eng" target="_blank"><img class="presidency_img" src="images/oaks.webp" alt="President_Oaks"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/people/d-todd-christofferson/life-leadership?lang=eng" target="_blank"><img class="presidency_img" src="images/christofferson.webp" alt="Elder_Christofferson"></a>
+        </div>
+
+        <h2>Quorum of the Twelve Apostles</h2>
+
+        <div class="profile_orbs">
+            <a href="https://www.churchofjesuschrist.org/learn/quorum-of-the-twelve-apostles?lang=eng" target="_blank"><img id="newapostle" class="orb_img" src="images/newapostle.png" alt="New_apostle"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/dieter-f-uchtdorf?lang=eng" target="_blank"><img class="orb_img" src="images/uchtdorf.webp" alt="apostle_uchtdorf"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/david-a-bednar?lang=eng" target="_blank"><img class="orb_img" src="images/bednar.webp" alt="apostle_bednar"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/quentin-l-cook?lang=eng" target="_blank"><img class="orb_img" src="images/cook.webp" alt="apostle_cook"></a>
+            
+            <a href="https://www.churchofjesuschrist.org/learn/neil-l-andersen?lang=eng" target="_blank"><img class="orb_img" src="images/anderson.webp" alt="apostle_anderson"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/ronald-a-rasband?lang=eng" target="_blank"><img class="orb_img" src="images/rasband.webp" alt="apostle_rasband"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/gary-e-stevenson?lang=eng" target="_blank"><img class="orb_img" src="images/stevenson.webp" alt="apostle_stevenson"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/dale-g-renlund?lang=eng" target="_blank"><img class="orb_img" src="images/renlund.webp" alt="apostle_renlund"></a>
+
+            <a href="https://www.churchofjesuschrist.org/learn/gerrit-w-gong?lang=eng" target="_blank"><img class="orb_img" src="images/gong.webp" alt="apostle_gong"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/ulisses-soares?lang=eng" target="_blank"><img class="orb_img" src="images/soares.webp" alt="apostle_soares"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/patrick-kearon?lang=eng" target="_blank"><img class="orb_img" src="images/kearon.webp" alt="apostle_kearon"></a>
+            <a href="https://www.churchofjesuschrist.org/learn/gerald-j-causse?lang=eng" target="_blank"><img class="orb_img" src="images/causse.webp" alt="apostle_causse"></a>
+        </div>
+
+    </wrapper>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+
+
+
+html {
+
+    background-color: #C0C0C0;
+}
+
+header {
+    background-color: #37FF8B;
+    padding: 1px;
+}
+
+
+nav {
+
+    background-color: #51D6FF;
+    padding: 1px;
+    /* height: 200px; */
+
+}
+
+#wrapper {
+    background-color: white;
+    height: 700px;
+
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 80px 50px 3fr 50px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+
+footer {
+    background-color: #417B5A;
+    align-content: center; 
+}
