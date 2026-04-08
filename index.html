@@ -2,58 +2,162 @@
 <html lang="en">
 
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Page | </title>
-    <link rel="stylesheet" href="../styles/portalstyles.css">
+    <link rel="stylesheet" href="styles/portalstyles.css">
 </head>
 
 <!-- PORTAL PAGE -->
 
-<body>
-
-
-
 <header>
     <nav>
         <a href="index.html" id="logo_link">
-            <img class="logo" src="resources/mainsite-icon1.png" width="100" alt="Site Logo Image">
+            <img src="images/PortalLogo.png" width="100" height="100" alt="Site Logo Image">
         </a>
         <h1>Welcome to Jonathan's Portal Page</h1>
         <a class="button" href="index.html">Home</a>
-        <a class="button" href="recipes.html">WWR</a>
-        <a class="button" href="recipes.html">ICE</a>
-        <a class="button" href="recipes.html">Project</a>
-        <!-- <a class="button" href="">More info</a>         -->
-
+        <a class="button" href="wwr/index.html">WWR</a>
+        <a class="button" href="ice.html">ICE</a>
+        <a class="button" href="client_report.html">Project</a>
     </nav>
-
-    <h2>Welcome! Get some Korean food recipes and make your own.</h2>
-
 </header>
 
 
 
-    <main>
-        <div class="textbox">
-            <p>Paragraphs of stuff</p>
+<body>
+        <div id="main_box">
+            <img id="main_img" src="images/me_salute.jpg" alt="Tall portrait image of me">    <!-- https://picsum.photos/id/1009/200/400 -->
+            <div>
+                <p>I grew up in America and have always enjoyed computers.
+                    My current Major is Computer Science, though I've considered switching to a Major in Physics or Computer Engineering. 
+                    I'm part Filipino and I served a mission in the Philippines, Tagalog speaking.
+                    I like warm weather and being outdoors, though I'm not good at any particular sport.
+                </p>
+                <ul>
+                    My Skills:
+                    <li>Problem solving</li>
+                    <li>Bilingual (Tagalog & English)</li>
+                    <li>Web Development</li>
+                    <li>Python Programming</li>
+                </ul>
+            </div>
         </div>
-        <div id="imagebox">
-            <img src="" alt="">
+
+
+    <div class="bar"></div>
+
+    <div id="middle_body">
+        <div class="imgbox">
+            <img class="sec_img" src="images/hikes.jpg" alt="image of hiking">
+            <h1 class="card_title">Hiking / walking</h1>
+            <p class="card_p">I love to Hike. I enjoy walking and running as well. But I don't do any of these competitively, I just do them for fun.</p>
+        </div>
+        <div class="imgbox">
+            <img class="sec_img" src="images/games.png" alt="image of video games">
+            <h1 class="card_title">Programming Games</h1>
+            <p class="card_p">I've always wanted to program games, not as a career but merely as a hobby. I'm inspired and motivated by indie game developers who create masterpieces through their creativity and willingness to create.</p>
+        </div>
+        <div class="imgbox">
+            <img class="sec_img" src="images/travels.jpg" alt="image of traveling">
+            <h1 class="card_title">Traveling</h1>
+            <p class="card_p">I haven't traveled much in my life, but I've certainly enjoyed it when I have. Someday I'd like to travel a lot more, if I have the finances for it. I've been to 7 states, and 1 country outside the USA.</p>
+        </div>
+        
+    </div>
+
+    <div class="bar"></div>
+    
+<div id="lower_area">
+<div id="table">
+    <h1 class="table_title">Current Schedule:</h1>
+
+    <table class="blueTable">
+<thead>
+<tr>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>write English Essay</td>
+<td>Pack room</td>
+<td>Apartment&nbsp;clean checks</td>
+</tr>
+<tr>
+<td>Take course Evaluation</td>
+<td>Call new apartment</td>
+<td>Lunch with uncle</td>
+</tr>
+<tr>
+<td>Submit English Essay</td>
+<td>Clean Apartment</td>
+<td>Finalize assignments</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+    <div id="middle">
+        <h3>Appointment Signup:</h3>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Date:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="email">Time:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Position:</label>
+        <div>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Student</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Teacher</label>
         </div>
 
+        <section>
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Fast Track Appointment (ASAP)</label>
+        </section>
 
-    </main>
+        <section>
+            <input type="checkbox" id="conditions" name="conditions" required>
+            <label for="conditions">Accept Terms and Conditions</label>
+        </section>
+
+        <section>
+            <button type="submit">Submit</button>
+        </section>
+    </div>
 
 
-    <footer>
-        <a href="wwr/index.html">Contact Us</a>
-
-    </footer>
-
-
+</div>
 </body>
+
+
+    
+
+<footer>
+        <h3>Do you want to work together? 555-555-XXXX</h3>
+        <p>&copy 2026 Patten</p>
+        <div>
+            
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo/link"></a>
+            <a href="https://x.com" target="_blank"><img src="images/twitter.png" alt="Twitter logo/link"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram logo/link"></a>
+        </div>
+        </div>
+
+</footer>
 </html>
 
 
