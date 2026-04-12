@@ -48,6 +48,7 @@ footer {
     text-decoration: none;
     /* color: #FFEBE7; */
     transition: background-color 0.2s ease-in; /* transitions any changes to background color*/
+    color: #8DE969;
 }
 .button:visited { color:#8DE969 }
 .button:hover {
